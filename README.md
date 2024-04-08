@@ -15,7 +15,17 @@ Designed by The DocRepair Project, Google
 
 https://fonts.google.com/specimen/Lunasima?query=lunasima
 
+Animations include:
 
+- Rotation
+- Glitch Effect
+- Glow Effect
+- Blazing Fire
+- Bounce Effect/ 3D Bounce Effect
+- Fade effect
+- Float Effect
+- Moving Down Effect
+- Moving Right Effect
 
 ## Acknowledgment
 
