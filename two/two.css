@@ -1,0 +1,175 @@
+* {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+    max-height: 100vh;
+    box-sizing: border-box;
+    background-color: palevioletred
+  }
+
+  section {
+    float: left;
+}
+  
+  html {
+    height: 100%;
+    font-family: "Lunasima", sans-serif;
+    font-size: 200px;
+  } 
+  
+  body {
+    width: 100%; 
+    min-height: 100%;
+    color: white;
+    text-align: center;
+    animation-iteration-count: infinite;
+    align-items: center;
+  }
+
+  #container {
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    width: max-content
+}
+
+/* line-5 */
+
+#line-5 {
+    font-size: 80px;
+    line-height: 90px;
+    width: 408px;
+    margin-bottom: 100px;
+    padding: 400px 0px 300px 0px;
+}
+
+#feel {
+    animation-name: feelAnimate;
+    animation-duration: 5s;
+    animation-delay: .25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+/* line-6 */
+
+#line-6 {
+    font-size: 80px;
+    line-height: 90px;
+    width: 408px;
+    margin-bottom: 100px;
+    padding: 400px 0px 300px 0px;
+}
+
+#try {
+    font-size: 120px;
+    animation-name: tryAnimate;
+    animation-duration: 5s;
+    animation-delay: .25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+/* line-7 */
+
+#someday {
+    animation-name: somedayAnimate;
+    animation-duration: 5s;
+    animation-delay: .25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+#line-7a {
+    font-size: 80px;
+    line-height: 90px;
+    width: 408px;
+    margin-bottom: 100px;
+    padding: 400px 0px 300px 0px;
+}
+
+#line-8 {
+    font-size: 160px;
+    animation-name: whatwasimadeforAnimate;
+    animation-duration: 5s;
+    animation-delay: .25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+
+/* restart */
+
+#restart a {
+    color: yellow; 
+    font-size: 250px;
+    padding-left: 300px;
+    text-decoration: none;
+  }
+  
+#restart a:hover {
+    color: pink; 
+  }
+
+/* keyframes */
+
+/* @keyframes Animate {
+    100% {
+        transform: translateX(-100%);
+      }
+} */
+
+@keyframes feelAnimate {
+    0%, 90%, 100% {
+        opacity: 0;
+        transform: translateX(-2%);
+      }
+      30% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+}
+
+@keyframes tryAnimate {
+    100% {
+        transform: translateX(-100%);
+      }
+}
+
+/* created by Elisabeth Diang */
+@keyframes somedayAnimate {
+    0%,
+  22%,
+  36%,
+  75% {
+    color: white;        
+    text-shadow: 0 0 0.6rem rgb(246, 163, 227), 0 0 1.5rem rgb(246, 163, 227),
+      -0.2rem 0.1rem 1rem #f19acb, 0.2rem 0.1rem 1rem #f19acb,
+      0 -0.5rem 2rem #f067a2, 0 0.5rem 3rem #f067a2;
+  }
+  28%,
+  33% {
+    color: #ffffff;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #ffffff;
+    text-shadow: none;
+  }
+}
+.flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+  }
+  
+.fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+  }
+/* created by Elisabeth Diang */
+
+@keyframes whatwasimadeforAnimate {
+    100% {
+        transform: rotateY(-40deg) rotateX(-43deg);
+      }
+}
