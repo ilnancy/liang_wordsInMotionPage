@@ -62,17 +62,17 @@
 /* line 1 */ 
 
 #line-1 { 
-    font-size: 80px;
+    font-size: 60px;
     line-height: 90px;
     width: 408px;
     margin-bottom: 100px;
-    padding: 400px 0px 300px 0px;
+    padding: 200px 80px 100px 80px;
     } 
 
 #float {
     animation-name: floatAnimate;
-    animation-duration: 5s;
-    animation-delay: .25s;
+    animation-duration: 4s;
+    animation-delay: .1s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     }
@@ -80,11 +80,11 @@
 /* line 2 */
 
 #line-2 {
-    font-size: 110px;
+    font-size: 60px;
     line-height: 90px;
     width: 408px;
     margin-bottom: 300px;
-    padding: 400px 0px 300px 0px;  
+    padding: 220px 80px 100px 80px;  
 }
 
 #down {
@@ -98,15 +98,15 @@
 /* line 3 */
 
 #line-3 {
-    font-size: 110px;
-    line-height: 150px;
+    font-size: 60px;
+    line-height: 90px;
     width: 408px;
     margin-bottom: 300px;
-    padding: 400px 0px 300px 0px; 
+    padding: 200px 80px 100px 80px; 
 }
 
 #madefor {
-    font-size: 160px;
+    font-size: 60px;
     animation-name: madeforAnimate;
     animation-duration: 5s;
     animation-delay: .25s;
@@ -118,31 +118,32 @@
 /* line 4 */
 
 #line-4 {
-    font-size: 110px;
+    font-size: 60px;
     line-height: 90px;
     width: 408px;
     margin-bottom: 300px;
-    padding: 400px 0px 300px 0px; 
+    padding: 200px 80px 100px 80px; 
 }
 
 #ideal {
     animation-name: idealAnimate;
-    animation-duration: 5s;
+    animation-duration: 1s;
     animation-delay: .25s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
 
 #ideal a {
-    color: white;
+    color: rgb(255, 0, 200);
     text-decoration: none;
-    font-size: 110px;
+    font-size: 60px;
+    padding: 0px 80px 0px 80px;
   } 
   
   #ideal a:hover {
-    color: rgb(235, 252, 0);
+    color: rgb(151, 212, 252);
     text-decoration: none;
-    font-size: 200px;
+    font-size: 100px;
   } 
 
 /* keyframes */
@@ -208,10 +209,10 @@
 @keyframes madeforAnimate {
     from {
         opacity: 100%;
-        color: rgb(255, 0, 200)
+        color: rgb(251, 113, 222)
       }
       to{
-        text-shadow:rgb(255, 0, 200);
+        text-shadow:rgb(251, 113, 222);
         opacity: 80%;
       } 
   }
@@ -225,8 +226,8 @@
         transform: translate(-2px,0);
       }
       62%{
-        transform: translate(-22px,5px) skew(21deg); 
-      }
+        transform: translate(-22px,5px) skew(21deg);
+}
 
 }
 

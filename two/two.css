@@ -37,11 +37,11 @@
 /* line-5 */
 
 #line-5 {
-    font-size: 80px;
+    font-size: 60px;
     line-height: 90px;
     width: 408px;
     margin-bottom: 100px;
-    padding: 400px 0px 300px 0px;
+    padding: 300px 80px 100px 80px;
 }
 
 #feel {
@@ -56,15 +56,15 @@
 /* line-6 */
 
 #line-6 {
-    font-size: 80px;
+    font-size: 60px;
     line-height: 90px;
     width: 408px;
     margin-bottom: 100px;
-    padding: 400px 0px 300px 0px;
+    padding: 300px 80px 100px 80px;
 }
 
 #try {
-    font-size: 120px;
+    font-size: 60px;
     animation-name: tryAnimate;
     animation-duration: 5s;
     animation-delay: .25s;
@@ -75,6 +75,8 @@
 /* line-7 */
 
 #someday {
+  font-size: 80px;
+  padding: 300px 80px 300px 80px;
     animation-name: somedayAnimate;
     animation-duration: 5s;
     animation-delay: .25s;
@@ -83,41 +85,41 @@
 }
 
 #line-7a {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 90px;
     width: 408px;
     margin-bottom: 100px;
-    padding: 400px 0px 300px 0px;
+    padding: 200px 80px 100px 80px;
 }
 
 /* line-8 */
 
 #line-8 {
     font-style: italic;
-    font-size: 100px;
+    font-size: 60px;
     line-height: 90px;
     width: 408px;
     margin-bottom: 100px;
-    padding: 400px 0px 300px 0px;
+    padding: 200px 80px 100px 80px;
 }
 
-#end {
-    font-size: 190px;
-    animation-name: endAnimate;
+/* #end {
+    font-size: 60px;
+    /* animation-name: endAnimate;
     animation-duration: 5s;
     animation-delay: .25s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;  
-}
+    animation-iteration-count: infinite;   */
+ 
 
 /* line-9 */
 
 #line-9 {
-    font-size: 80px;
+    font-size: 60px;
     line-height: 90px;
     width: 408px;
     margin-bottom: 100px;
-    padding: 400px 0px 300px 0px;
+    padding: 200px 80px 100px 80px;
 }
 
 #enjoyment {
@@ -131,7 +133,8 @@
 /* line-10 */
 
 #line-10 {
-    font-size: 130px;
+    font-size: 60px;
+    padding: 50px 80px 100px 80px;
     animation-name: whatwasimadeforAnimate;
     animation-duration: 5s;
     animation-delay: .25s;
@@ -153,7 +156,7 @@
 #restart a {
     color: yellow; 
     font-size: 250px;
-    padding-left: 300px;
+    padding-left: 200px;
     text-decoration: none;
   }
   
@@ -216,7 +219,7 @@
 /* created by Elisabeth Diang */
 
 /* created by Makan */
-@keyframes endAnimate {
+/* @keyframes endAnimate {
     0%   { text-shadow: 0 3px 20px rgb(177, 30, 111), 0 0 20px rgb(255, 238, 0),
         0 0 10px rgb(255, 255, 0),
         0 0 0 rgb(255, 0, 132),
@@ -248,7 +251,7 @@
         -2px -5px 5px yellow,
         4px -10px 10px yellow; }
     
-}
+} */
 /* created by Makan */
 
 /* created by Erin E. Sullivan */
